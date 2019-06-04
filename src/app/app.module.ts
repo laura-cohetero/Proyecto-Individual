@@ -25,7 +25,7 @@ import { AboutComponent } from './about/about.component';
 import { AuthService } from './core/auth.service';
 import { AuthGuard } from './core/auth.guard';
 import { UserService } from './core/user.service';
-//import { PrincipalComponent } from './principal/principal.component';
+import { RegisterComponent } from './register/register.component';
 import { HomeResolver } from './home/home.resolver';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
@@ -33,6 +33,7 @@ import { MessagingService } from './core/messaging.service';
 import { AsyncPipe } from '@angular/common';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireMessagingModule } from '@angular/fire/messaging';
+
 
 
 
@@ -47,6 +48,7 @@ import { AngularFireMessagingModule } from '@angular/fire/messaging';
     HomeComponent,
     LoginComponent,
     AboutComponent,
+    RegisterComponent,
    
     
     

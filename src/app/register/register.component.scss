@@ -1,0 +1,23 @@
+.header{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.error{
+  color: red;
+}
+
+.success{
+  color: green;
+}
+
+$icon-font-path: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/" !default;
+// Include Bootstrap styles
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap";

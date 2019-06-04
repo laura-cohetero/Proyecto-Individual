@@ -6,6 +6,7 @@ import { EditUserResolver } from './edit-user/edit-user.resolver';
 import { LoginComponent } from './login/login.component';
 import { AboutComponent } from './about/about.component';
 import { AuthGuard } from './core/auth.guard';
+import { RegisterComponent } from './register/register.component';
 //import { PrincipalComponent } from './principal/principal.component';
 
 export const rootRouterConfig: Routes = [
@@ -14,6 +15,7 @@ export const rootRouterConfig: Routes = [
   //{ path: 'principal', component: PrincipalComponent },
   { path: 'home', component: HomeComponent },
   { path: 'new-user', component: NewUserComponent },
+  { path: 'register', component: RegisterComponent }, 
   { path: 'login', component: LoginComponent, canActivate:[AuthGuard] },
   { path: 'about', component: AboutComponent },
   { path: 'details/:id', component: EditUserComponent, resolve:{data : EditUserResolver} }
