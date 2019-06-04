@@ -29,6 +29,10 @@ import { UserService } from './core/user.service';
 import { HomeResolver } from './home/home.resolver';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
+import { MessagingService } from './core/messaging.service';
+import { AsyncPipe } from '@angular/common';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireMessagingModule } from '@angular/fire/messaging';
 
 
 
@@ -43,6 +47,7 @@ import { from } from 'rxjs';
     HomeComponent,
     LoginComponent,
     AboutComponent,
+   
     
     
   ],
@@ -61,6 +66,9 @@ import { from } from 'rxjs';
     MatSliderModule,
     MatDialogModule,
     HttpClientModule,
+    AngularFireDatabaseModule,
+    AngularFireMessagingModule
+
     
 
     
@@ -72,7 +80,9 @@ import { from } from 'rxjs';
     AuthService, 
     AuthGuard, 
     UserService,
-    HomeResolver  
+    HomeResolver,
+    MessagingService,
+    AsyncPipe 
   ],
   bootstrap: [AppComponent],
   schemas: [

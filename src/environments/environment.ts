@@ -5,19 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-   /* apiKey: "AIzaSyBMOaRr0NirNOX-eh2ITJBHUpL3ow8Hr4w",
-    authDomain: "splendid-ground-95214.firebaseapp.com",
-    databaseURL: "https://splendid-ground-95214.firebaseio.com",
-    projectId: "splendid-ground-95214",
-    storageBucket: "",
-    messagingSenderId: "429226112331"*/
-    apiKey: "AIzaSyC7NuGaOIll7llCM8l8eWmPUI1CXhtQxfI",
-    authDomain: "appangular-firebase.firebaseapp.com",
-    databaseURL: "https://appangular-firebase.firebaseio.com",
-    projectId: "appangular-firebase",
-    storageBucket: "appangular-firebase.appspot.com",
-    messagingSenderId: "97441666927",
-    appId: "1:97441666927:web:4f3137eb1ea79e86"
+    apiKey: "AIzaSyD1adcMxwn2wwR8qzdp2jwbwaAFCrNyjyM",
+    authDomain: "angular-firebase-crud-87aed.firebaseapp.com",
+    databaseURL: "https://angular-firebase-crud-87aed.firebaseio.com",
+    projectId: "angular-firebase-crud-87aed",
+    storageBucket: "angular-firebase-crud-87aed.appspot.com",
+    messagingSenderId: "1010155911515",
+    appId: "1:1010155911515:web:279bf57a6ebe53c2"
   }
 };
 

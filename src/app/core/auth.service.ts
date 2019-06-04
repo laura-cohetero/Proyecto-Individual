@@ -2,15 +2,17 @@ import { Injectable } from "@angular/core";
 import 'rxjs/add/operator/toPromise';
 import { AngularFireAuth } from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
+import { Router } from '@angular/router';
 
 @Injectable()
 export class AuthService {
 
   constructor( 
    
-    public afAuth: AngularFireAuth
+    public afAuth: AngularFireAuth,
+    
+    private router: Router,
  ){}
-
 
   doFacebookLogin(){
     return new Promise<any>((resolve, reject) => {

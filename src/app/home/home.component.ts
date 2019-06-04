@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.getData();
   }
-
+/*
   logout(){
     this.authService.doLogout()
     .then((res) => {
@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
- 
+ */
  
   getData(){
     this.firebaseService.getUsers()

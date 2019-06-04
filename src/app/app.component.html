@@ -1,8 +1,10 @@
 
 <div class="page-container" >
+	
 	<div class="side-bar" *ngIf="authService.isLoggedIn()">
+			
 		<ul class="nav flex-rows" >
-
+ 
 			<li class="nav-item" >
 				<a class="nav-link active" routerLink="home">
 				<ion-icon name="home"></ion-icon>
@@ -35,13 +37,10 @@
 			</li>
 
 		</ul>
-		
+	
 	</div>
 	<main class="content-container">
 		<router-outlet></router-outlet>
   </main> 
 	
   </div>
-
-
-
